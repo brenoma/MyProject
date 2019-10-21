@@ -6,3 +6,6 @@ const fisica = {
         sala: 4
     }
 }
+
+const { localizacao: { sala: sala } } = fisica
+console.log(sala)
